@@ -1,0 +1,42 @@
+{
+  "name": "strapi-provider-email-msgraph",
+  "version": "1.0.0",
+  "description": "Microsoft Graph email provider plugin for Strapi 3",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "@azure/identity": "^3.0.0",
+    "@microsoft/microsoft-graph-client": "^3.0.2",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mondago/strapi-provider-email-msgraph.git"
+  },
+  "keywords": [
+    "Strapi",
+    "Email",
+    "Provider",
+    "Strapi 3",
+    "Graph",
+    "Microsoft"
+  ],
+  "author": {
+    "name": "Mondago Ltd"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Yates"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mondago/strapi-provider-email-msgraph#readme",
+  "strapi": {
+    "isProvider": true
+  }
+}
