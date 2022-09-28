@@ -12,7 +12,7 @@ An app registration for the tenant with Mail.Send permission is required. You'll
 
 ## Installation
 
-This package is scoped so you'll need to add an alias to your package.json. Replace <version> with the version number of your choice (eg 1.0.0).
+This package is scoped so you'll need to add an alias to your package.json. Replace `<version>` with the version number of your choice (eg 1.0.0).
 
 ```json
   "dependencies": {
