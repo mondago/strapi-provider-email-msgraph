@@ -1,6 +1,6 @@
 {
 	"name": "@mondago/strapi-provider-email-msgraph",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Emails via Microsoft Graph",
 	"main": "./dist",
 	"types": "./dist/index.d.ts",
