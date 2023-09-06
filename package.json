@@ -1,36 +1,36 @@
 {
-  "name": "@mondago/strapi-provider-email-msgraph",
-  "version": "2.0.0",
-  "description": "Emails via Microsoft Graph",
-  "main": "./dist",
-  "types": "./dist/index.d.ts",
-  "directories": {
-    "dist": "./dist"
-  },
-  "scripts": {
-    "format:check": "prettier --check src/**/*.{ts,tsx}",
-    "format": "prettier --write src/**/*.{ts,tsx}",
-    "build": "tsc",
-    "lint": "eslint .",
-    "clean": "rimraf ./dist"
-  },
-  "engines": {
-    "node": ">=16.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
-  },
-  "prettier": "@mondago/prettier-config",
-  "devDependencies": {
-    "@mondago/prettier-config": "^1.0.1",
-    "@tsconfig/node16": "^16.1.1",
-    "@types/isomorphic-fetch": "^0.0.36",
-    "eslint": "^8.48.0",
-    "prettier": "^3.0.3",
-    "rimraf": "^5.0.1",
-    "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "@azure/identity": "^3.3.0",
-    "@microsoft/microsoft-graph-client": "^3.0.6",
-    "isomorphic-fetch": "^3.0.0"
-  }
+	"name": "@mondago/strapi-provider-email-msgraph",
+	"version": "2.0.1",
+	"description": "Emails via Microsoft Graph",
+	"main": "./dist",
+	"types": "./dist/index.d.ts",
+	"directories": {
+		"dist": "./dist"
+	},
+	"scripts": {
+		"format:check": "prettier --check src/**/*.{ts,tsx}",
+		"format": "prettier --write src/**/*.{ts,tsx}",
+		"build": "tsc",
+		"lint": "eslint .",
+		"clean": "rimraf ./dist"
+	},
+	"engines": {
+		"node": ">=16.0.0 <=20.x.x",
+		"npm": ">=6.0.0"
+	},
+	"prettier": "@mondago/prettier-config",
+	"devDependencies": {
+		"@mondago/prettier-config": "^1.0.1",
+		"@tsconfig/node16": "^16.1.1",
+		"@types/isomorphic-fetch": "^0.0.36",
+		"eslint": "^8.48.0",
+		"prettier": "^3.0.3",
+		"rimraf": "^5.0.1",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@azure/identity": "^3.3.0",
+		"@microsoft/microsoft-graph-client": "^3.0.6",
+		"isomorphic-fetch": "^3.0.0"
+	}
 }
