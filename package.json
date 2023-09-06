@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-msgraph",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Emails via Microsoft Graph",
   "main": "./dist",
   "types": "./dist/index.d.ts",

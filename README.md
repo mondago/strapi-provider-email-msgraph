@@ -1,6 +1,6 @@
 # strapi-provider-email-msgraph
 
-Microsoft Graph email provider plugin for Strapi 3.x.
+Microsoft Graph email provider plugin for Strapi 4.x.
 
 ## Prerequisites
 
