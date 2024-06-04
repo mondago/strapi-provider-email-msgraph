@@ -31,7 +31,7 @@ To use this provider setup your config/plugins.js file:
 ```javascript
 module.exports = ({ env }) => ({
   email: {
-    provider: "msgraph",
+    provider: "strapi-provider-email-msgraph",
     providerOptions: {
       clientId: env("GRAPH_MAIL_CLIENT_ID"),
       clientSecret: env("GRAPH_MAIL_CLIENT_SECRET"),
