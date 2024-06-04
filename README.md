@@ -26,20 +26,22 @@ Then run either `yarn` or `npm install` (depending on which package manager you'
 
 ## Configuration
 
-To use this provider setup your config/plugins.js file:
+To use this provider setup your config/plugins.ts file:
 
-```javascript
-module.exports = ({ env }) => ({
+```typescript
+export default ({ env }) => ({
   email: {
-    provider: "strapi-provider-email-msgraph",
-    providerOptions: {
-      clientId: env("GRAPH_MAIL_CLIENT_ID"),
-      clientSecret: env("GRAPH_MAIL_CLIENT_SECRET"),
-      tenantId: env("GRAPH_MAIL_TENANT_ID"),
-    },
-    settings: {
-      defaultFrom: "hello@example.com",
-    },
+    config: {
+      provider: "strapi-provider-email-msgraph",
+      providerOptions: {
+        clientId: env("GRAPH_MAIL_CLIENT_ID"),
+        clientSecret: env("GRAPH_MAIL_CLIENT_SECRET"),
+        tenantId: env("GRAPH_MAIL_TENANT_ID"),
+      },
+      settings: {
+        defaultFrom: "hello@example.com",
+      },
+    }
   },
 });
 ```
